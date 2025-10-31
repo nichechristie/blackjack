@@ -1,3 +1,7 @@
+# blackjack
+
+Blackjack mini app for Farcaster
+
 ## Farcaster Backend (Neynar)
 
 Backend starter for a Farcaster app using Neynar's Node.js SDK.
@@ -97,4 +101,3 @@ curl -X POST http://localhost:3000/withdraw \
   - `POST /token/upload-logo` (body optional: `{ "filename": "niche.png" }`)
   - Response includes `{ cid, gateway, suggestedLogoURI }`
   - Put `PUBLIC_LOGO_URI` in env with the `suggestedLogoURI` to serve in `/token/metadata`
-
